@@ -4,7 +4,7 @@
 
 ## Name
 
-Tasha Yun blends Hausa *tasha* (station) and Chinese 云 *yún* (cloud): a cloud station for your files. Pronounced TAH-sha YOON.
+Tasha Yun combines two words: Hausa *tasha* (station) and Mandarin Chinese 云 *yún* (cloud), so it means "cloud station" for your files. Hausa is a major West African language spoken mainly in Nigeria and Niger. Pronounced TAH-sha YOON.
 
 ## Status
 
