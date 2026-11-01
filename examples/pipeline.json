@@ -1,0 +1,8 @@
+{
+  "steps": [
+    { "id": "usb", "type": "mirror", "source": "/data/projects", "dest": "/mnt/usb/projects" },
+    { "id": "pc", "type": "mirror", "source": "/data/projects", "dest": "pc:/data/projects", "after": ["usb"] },
+    { "id": "pc-usb", "type": "mirror", "source": "pc:/data/projects", "dest": "pc:/mnt/usb/projects", "after": ["pc"] },
+    { "id": "archive", "type": "zip-encrypt-upload", "after": ["pc-usb"] }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "tashayun",
+  "version": "0.0.1",
+  "description": "Tasha Yun: encrypted folder sync and backup across local disks, SSH and S3, in ordered steps",
+  "main": "dist/cli.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealienLabs/tashayun.git"
+  },
+  "keywords": [],
+  "author": "Kareem Adel Gaafar",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/RealienLabs/tashayun/issues"
+  },
+  "homepage": "https://github.com/RealienLabs/tashayun#readme",
+  "bin": {
+    "tashayun": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
